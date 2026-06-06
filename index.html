@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kinesis Run Club</title>
+    <meta
+      name="description"
+      content="Kinesis Run Club is a Navi Mumbai community run club with simple sign-ups for upcoming runs."
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="assets/kinesis_logo.png" />
+    <meta name="theme-color" content="#2427CA" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="Kinesis Run Club home">
+          <img src="assets/kinesis_logo.png" alt="" />
+          <span>Kinesis Run Club</span>
+        </a>
+        <button
+          class="hamburger"
+          type="button"
+          data-menu-toggle
+          aria-label="Open menu"
+          aria-controls="navLinks"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navlinks" id="navLinks">
+          <button class="close-btn" type="button" data-menu-toggle aria-label="Close menu">
+            &times;
+          </button>
+          <a href="#runs">Runs</a>
+          <a href="https://www.instagram.com/kinesisrunclub/" target="_blank" rel="noopener">
+            Instagram
+          </a>
+          <a href="register_run.html" class="btn">Sign up for a run</a>
+        </div>
+      </div>
+    </nav>
+    <div class="overlay" data-menu-toggle></div>
+
+    <main>
+      <section class="home-hero">
+        <div class="container home-hero-inner">
+          <div class="home-copy">
+            <span class="eyebrow">Navi Mumbai community runs</span>
+            <h1>Kinesis Run Club</h1>
+            <p>
+              Sign up for the next community run, choose your distance, and
+              join the crew moving through Navi Mumbai together.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-large" href="register_run.html">Sign up for the run</a>
+              <a
+                class="btn ghost btn-large"
+                href="https://www.instagram.com/kinesisrunclub/"
+                target="_blank"
+                rel="noopener"
+                >Follow on Instagram</a
+              >
+            </div>
+          </div>
+
+          <div class="home-panel" aria-label="Kinesis Run Club run summary">
+            <img src="assets/kinesis_logo.png" alt="Kinesis Run Club logo" />
+            <div class="run-card">
+              <span class="run-card-label">Next run</span>
+              <strong>Sunday Community Run</strong>
+              <span>Navi Mumbai start point</span>
+            </div>
+            <div class="run-metrics">
+              <div>
+                <strong>3K</strong>
+                <span>Easy</span>
+              </div>
+              <div>
+                <strong>5K</strong>
+                <span>Social</span>
+              </div>
+              <div>
+                <strong>10K</strong>
+                <span>Steady</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="runs">
+        <div class="container split-section">
+          <div>
+            <span class="eyebrow">Built for the run day flow</span>
+            <h2 class="section-title">One clear run sign-up.</h2>
+            <p class="section-copy">
+              Everything on the public site points runners toward the next run:
+              distance, meet point, and a focused registration form.
+            </p>
+          </div>
+          <div class="choice-grid">
+            <a class="choice-card runner" href="register_run.html">
+              <span>For runners</span>
+              <strong>Sign up for the next run</strong>
+              <small>Share your details, pace, distance, and travel plan.</small>
+            </a>
+            <a
+              class="choice-card admin"
+              href="https://www.instagram.com/kinesisrunclub/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>Updates</span>
+              <strong>Follow the club on Instagram</strong>
+              <small>Check route updates, run photos, and community announcements.</small>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft-section">
+        <div class="container grid grid-3">
+          <div class="feature">
+            <span>01</span>
+            <h3>All paces welcome</h3>
+            <p>Choose 3K, 5K, or 10K and run with a group that feels right.</p>
+          </div>
+          <div class="feature">
+            <span>02</span>
+            <h3>Community first</h3>
+            <p>Friendly, inclusive runs built around showing up together.</p>
+          </div>
+          <div class="feature">
+            <span>03</span>
+            <h3>Easy coordination</h3>
+            <p>Registration details help the crew plan groups, photos, and meetups.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>&copy; 2026 Kinesis Run Club - Navi Mumbai</div>
+        <div class="footer-actions">
+          <a
+            class="btn ghost"
+            href="https://wa.me/919999999999?text=Hi%20Kinesis%20team!%20I%20had%20a%20question%20about%20the%20next%20run."
+            target="_blank"
+            rel="noopener"
+            >WhatsApp</a
+          >
+          <a class="btn" href="register_run.html">Run sign-up</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/site.js"></script>
+  </body>
+</html>

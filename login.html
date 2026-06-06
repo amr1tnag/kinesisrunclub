@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login - Kinesis Run Club</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="assets/kinesis_logo.png" />
+    <meta name="theme-color" content="#2427CA" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="Kinesis Run Club home">
+          <img src="assets/kinesis_logo.png" alt="" />
+          <span>Kinesis Run Club</span>
+        </a>
+        <button
+          class="hamburger"
+          type="button"
+          data-menu-toggle
+          aria-label="Open menu"
+          aria-controls="navLinks"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navlinks" id="navLinks">
+          <button class="close-btn" type="button" data-menu-toggle aria-label="Close menu">
+            &times;
+          </button>
+          <a href="index.html">Home</a>
+          <a href="register_run.html">Upcoming Run</a>
+          <a
+            href="https://www.instagram.com/kinesisrunclub/"
+            target="_blank"
+            rel="noopener"
+            >Instagram</a
+          >
+          <a href="signup.html">Create account</a>
+          <a href="login.html" class="btn">Login</a>
+        </div>
+      </div>
+    </nav>
+    <div class="overlay" data-menu-toggle></div>
+
+    <main>
+      <section class="section">
+        <div class="container" style="max-width: 520px">
+          <div class="card">
+            <h1 class="section-heading">Login</h1>
+            <p class="notice" data-form-notice>
+              You are signed in for this browser session.
+            </p>
+            <form data-demo-form data-success="You are signed in for this browser session.">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  autocomplete="current-password"
+                  required
+                />
+              </div>
+              <div class="actions">
+                <button class="btn" type="submit">Login</button>
+                <a class="btn ghost" href="signup.html">Create account</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>&copy; 2026 Kinesis Run Club - Navi Mumbai</div>
+        <div class="footer-actions">
+          <a class="btn" href="register_run.html">Upcoming Run</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/site.js"></script>
+  </body>
+</html>

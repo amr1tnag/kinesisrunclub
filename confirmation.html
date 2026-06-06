@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>You're In - Kinesis Run Club</title>
+    <meta
+      name="description"
+      content="Your Kinesis Run Club registration confirmation with meeting point and run-day links."
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="assets/kinesis_logo.png" />
+    <meta name="theme-color" content="#2427CA" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="Kinesis Run Club home">
+          <img src="assets/kinesis_logo.png" alt="" />
+          <span>Kinesis Run Club</span>
+        </a>
+        <button
+          class="hamburger"
+          type="button"
+          data-menu-toggle
+          aria-label="Open menu"
+          aria-controls="navLinks"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navlinks" id="navLinks">
+          <button class="close-btn" type="button" data-menu-toggle aria-label="Close menu">
+            &times;
+          </button>
+          <a href="index.html">Home</a>
+          <a href="register_run.html" class="btn">Register another runner</a>
+        </div>
+      </div>
+    </nav>
+    <div class="overlay" data-menu-toggle></div>
+
+    <main>
+      <section class="confirmation-hero">
+        <div class="container confirmation-card">
+          <span class="eyebrow">Registration confirmed</span>
+          <h1>You're in.</h1>
+          <p>
+            Your run sign-up has been saved for this browser session. Bring
+            water, arrive a little early, and keep an eye on Instagram or
+            WhatsApp for run-day updates.
+          </p>
+          <div class="confirmation-grid">
+            <div>
+              <span>Meet</span>
+              <strong>Navi Mumbai start point</strong>
+            </div>
+            <div>
+              <span>Choose</span>
+              <strong>3K, 5K, or 10K</strong>
+            </div>
+            <div>
+              <span>Bring</span>
+              <strong>Water and comfortable shoes</strong>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a
+              class="btn btn-large"
+              href="https://maps.app.goo.gl/FHU3wwp6EKNCJDRWA"
+              target="_blank"
+              rel="noopener"
+              >Open meeting point</a
+            >
+            <a
+              class="btn ghost btn-large"
+              href="https://www.instagram.com/kinesisrunclub/"
+              target="_blank"
+              rel="noopener"
+              >Open Instagram</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/site.js"></script>
+  </body>
+</html>

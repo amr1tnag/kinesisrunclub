@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin Login - Kinesis</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="icon" href="../assets/kinesis_logo.png" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="../index.html">
+          <img src="../assets/kinesis_logo.png" alt="" />
+          <span>Kinesis Admin</span>
+        </a>
+        <button
+          class="hamburger"
+          type="button"
+          data-menu-toggle
+          aria-label="Open menu"
+          aria-controls="navLinks"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navlinks" id="navLinks">
+          <button class="close-btn" type="button" data-menu-toggle aria-label="Close menu">
+            &times;
+          </button>
+          <a href="../index.html">Back to site</a>
+          <a class="btn" href="dashboard.html">Dashboard</a>
+        </div>
+      </div>
+    </nav>
+    <div class="overlay" data-menu-toggle></div>
+
+    <main>
+      <section class="section">
+        <div class="container" style="max-width: 520px">
+          <div class="card">
+            <h1 class="section-heading">Admin Login</h1>
+            <p class="notice" data-form-notice>
+              Demo login accepted. Open the dashboard to continue.
+            </p>
+            <form
+              data-demo-form
+              data-success="Demo login accepted. Open the dashboard to continue."
+            >
+              <div class="field">
+                <label for="username">Username</label>
+                <input id="username" name="username" autocomplete="username" required />
+              </div>
+              <div class="field">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  autocomplete="current-password"
+                  required
+                />
+              </div>
+              <div class="actions">
+                <button class="btn" type="submit">Login</button>
+                <a class="btn ghost" href="../index.html">Back to site</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../assets/site.js"></script>
+  </body>
+</html>
